@@ -4,7 +4,7 @@ import CMS from './components/CMS';
 function App() {
   return (
     <div className="App">
-      <CMS/>
+       <CMS />
     </div>
   );
 }

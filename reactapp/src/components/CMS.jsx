@@ -16,7 +16,7 @@ const CMS = () => {
 
   return (
     <div className="container">
-      <h1 className="hight-h1">Course Management System</h1>
+      {/* <h1 className="hight-h1">Course Management System</h1> */}
       <div className="row mt-4">
         <div className="col-md-6">
           <CourseList courses={courses} onDeleteCourse={handleDeleteCourse} />
